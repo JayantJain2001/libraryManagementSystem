@@ -1,0 +1,30 @@
+### Task: Implement a Library Management System
+
+#### Description:
+Design and implement a simple library management system using Java. The system should allow users to perform basic operations such as adding a new book, removing a book, borrowing a book, returning a book, and searching for books by title or author.
+
+#### Requirements:
+1. *Book Class:* Create a Book class with attributes such as title, author, ISBN, genre, availability status, etc.
+2. *Library Class:* Implement a Library class that manages a collection of books. It should include methods to add a book, remove a book, borrow a book, return a book, and search for books by title or author.
+3. *User Interface:* Develop a simple command-line interface or GUI (if you're comfortable with GUI development) to interact with the library system. The interface should allow users to perform operations like adding, removing, borrowing, and returning books, as well as searching for books.
+4. *Data Persistence:* Implement functionality to save and load the library's data to/from a file. You can use simple text files, JSON, or any other suitable format for data storage.
+5. *Error Handling:* Implement proper error handling for various scenarios, such as attempting to borrow a book that is not available, trying to remove a book that doesn't exist, etc.
+
+#### Additional Features (Optional):
+- Implement user authentication and authorization to restrict certain operations to librarians or administrators only.
+- Add support for multiple copies of the same book with individual availability tracking.
+- Implement a feature to generate reports, such as a list of overdue books, most borrowed books, etc.
+- Implement a reservation system for books that are currently checked out.
+
+#### Guidelines:
+- Use object-oriented principles effectively to design your classes.
+- Write clean, readable, and well-commented code.
+- Break down your code into smaller, manageable methods.
+- Test your code thoroughly to ensure it works as expected in different scenarios.
+- Feel free to use external libraries/frameworks if necessary, but ensure you understand the core concepts behind them.
+
+#### Submission:
+- Submit your Java code along with any necessary documentation (e.g., README file explaining how to run the program, any design decisions, etc.).
+- Optionally, provide a brief overview or demo of your library management system.
+
+This task will allow you to demonstrate your understanding of Java programming concepts such as classes, objects, methods, file I/O, error handling, and potentially GUI development if you choose to include it. It also encourages good software design practices and problem-solving skills. Good luck
